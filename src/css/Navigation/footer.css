@@ -1,0 +1,85 @@
+#background-color-footer {
+    background-color: #0d1019;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding-bottom: 3rem;
+}
+
+.mediaList {
+    display: flex; /* Change to flex layout */
+    justify-content: space-around; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap:2rem;
+    margin-top: 2rem;
+}
+
+.mediaList a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .25em;
+}
+
+.mediaItem {
+    background-color: var(--ui-lightBlue);
+    border-radius: 10%;
+    transition-duration: .2s;
+}
+
+
+.mediaImage {
+    width: 4rem;
+    border-radius: 5px;
+}
+
+.footerLLC {
+    color: var(--main-White);
+}
+
+.footer-btn {
+    margin-top: -1.5rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    /* width: clamp(1rem, 3rem, 5rem); */
+    width: 4rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .2s;
+}
+
+.footer-btn:hover, .mediaItem:hover {
+    transform:translateY(-10px);       
+}
+
+.restart-btn {
+    width:3.5em;
+}
+
+
+    /* xs */
+    @media (max-width: 475px) {
+    .container {
+    width: 100%;
+    }
+    .mediaList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Grid with 3 columns */
+        grid-gap: 20px; /* Gap between grid items */
+      }
+    }
+    
+    /* xs around iphone 6 gen */
+    @media (max-width: 380px) {
+    .container {
+    width: 100%;
+    }
+    }
+

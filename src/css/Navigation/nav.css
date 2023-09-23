@@ -1,0 +1,67 @@
+
+#navList {
+  position: fixed;
+    display: flex; 
+    justify-content: end;
+    gap: 3rem;
+    padding: 0.5em;
+    font-size: var(--text-xl-font-size);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: var(--background-dark);
+    border-bottom: 2px solid var(--ui-lightBlue);
+    padding-right:var(--text-7xl-font-size);
+    width: 100%;
+    box-sizing: border-box; /* Add this to include padding and borders in the width */
+
+  }
+  
+  .nav-link {
+    color: white;
+    background-color: var(--background-dark);
+  }
+  
+  .nav-link:hover {
+    color: var(--main-Pink);
+  }
+  
+  /* Responsive styles for navigation bar */
+
+  /* 2xl */
+  @media (max-width: 1536px) {
+    #navList {
+      font-size: var(--text-lg-font-size); /* Adjust font size */
+      gap: 2rem; /* Adjust gap between links */
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    #navList {
+      font-size: var(--text-base-font-size);
+      padding:1.5rem;
+
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    #navList {
+      font-size: var(--text-sm-font-size);
+      padding:1.25rem;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    #navList {
+      display: none;
+
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+
+  }
+  

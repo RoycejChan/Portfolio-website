@@ -1,0 +1,94 @@
+:root {
+    --ui-lightBlue: #00bbf9;
+    --text-Gray: #60616b;
+    --background-dark: #070a13;
+    --main-Red: #d00000;
+    --main-Pink: #ff006e;
+    --main-White: #f1f5f9;
+    --strong-purple:#9400FF;
+    --text-xs-font-size: 0.75rem;
+    --text-xs-line-height: 1rem;
+    --text-sm-font-size: 0.875rem;
+    --text-sm-line-height: 1.25rem;
+  
+    --text-base-font-size: 1rem;
+    --text-base-line-height: 1.5rem;
+  
+    --text-lg-font-size: 1.125rem;
+    --text-lg-line-height: 1.75rem;
+  
+    --text-xl-font-size: 1.25rem;
+    --text-xl-line-height: 1.75rem;
+  
+    --text-2xl-font-size: 1.5rem;
+    --text-2xl-line-height: 2rem;
+  
+    --text-3xl-font-size: 1.875rem;
+    --text-3xl-line-height: 2.25rem;
+  
+    --text-4xl-font-size: 2.25rem;
+    --text-4xl-line-height: 2.5rem;
+  
+    --text-5xl-font-size: 3rem;
+    --text-5xl-line-height: 1;
+  
+    --text-6xl-font-size: 3.75rem;
+    --text-6xl-line-height: 1;
+  
+    --text-7xl-font-size: 4.5rem;
+    --text-7xl-line-height: 1;
+  
+    --text-8xl-font-size: 6rem;
+    --text-8xl-line-height: 1;
+  
+    --text-9xl-font-size: 8rem;
+    --text-9xl-line-height: 1;
+  }
+  
+
+*, body {
+
+margin:0;
+padding: 0;
+line-height: clac(1em + 0.5rem);
+font-family: 'Gugi', cursive;
+}
+
+
+li, a {
+    list-style: none;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.section {
+    margin-bottom:1rem;
+}
+
+.background-color {
+    background-color: var(--background-dark);
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+purple {
+    color: var(--strong-purple);
+}
+
+red {
+  color: var(--main-Red);
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #ff006e);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #00bbf9);
+}

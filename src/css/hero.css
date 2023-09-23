@@ -1,0 +1,170 @@
+
+.intro-pfp {
+    width: 11rem;
+    border-radius: 50%;
+    height:180px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:3rem;
+    background-image: url('../assets/headerBackground.jpg');
+    background-size: cover; /* Cover the entire header with the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image horizontally and vertically */
+    height: 100vh; /* Set the header height to 100% of the viewport height */
+}
+
+.intro-header {
+    font-size: var(--text-5xl-font-size);
+    text-transform: uppercase;
+    color: var(--main-White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.handemoji {
+    width: 1.5em;
+}
+
+.intro-message {
+    width: 60ch;
+    color: var(--text-Gray);
+}
+
+.intro-btn {
+    font-size: var(--text-3xl-font-size);
+    padding: .5em;
+    background-color:var(--main-Pink);
+    border: none;
+    border-radius: 15px;
+    color: var(--main-White);
+    cursor: pointer;
+    animation: glow 1.5s infinite alternate; /* Animation for the glowing effect */
+    transition: transform 0.2s ease-in-out; /* Transition for the transform property */
+}
+
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 30px var(--main-Pink); /* Initial glow effect */
+    }
+    100% {
+      box-shadow: 0 0 40px var(--main-Pink); /* Increased glow effect */
+    }
+  }
+
+  .intro-btn:hover {
+    transform: scale(1.1);
+  }
+
+
+    /* 2xl */
+    @media (max-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+    }
+    
+    /* xl */
+    @media (max-width: 1280px) {
+        .intro-pfp {
+            width: 10rem;
+            border-radius: 50%;
+            height:170px;
+        }
+        
+        .intro-header {
+            font-size: var(--text-4xl-font-size);
+        }
+        
+        .intro-message {
+            width: 50ch;
+            color: var(--text-Gray);
+        }
+
+        .intro-btn {
+            font-size: var(--text-2xl-font-size);
+        }
+    }
+    
+    /* lg */
+    @media (max-width: 1024px) {
+        .intro-pfp {
+            width: 10rem;
+            border-radius: 50%;
+            height:170px;
+        }
+
+    }
+    
+    /* md */
+    @media (max-width: 768px) {
+        .intro-pfp {
+            width: 10rem;
+            border-radius: 50%;
+            height:170px;
+        }
+        
+        .intro-header {
+            font-size: var(--text-3xl-font-size);
+        }
+        
+        .intro-message {
+            width: 40ch;
+            color: var(--text-Gray);
+        }
+
+        .intro-btn {
+            font-size: var(--text-xl-font-size);
+        }
+    }
+    
+    /* sm */
+    @media (max-width: 640px) {
+        .intro-pfp {
+            width: 7rem;
+            border-radius: 50%;
+            height:140px;
+        }
+        
+        .intro-header {
+            font-size: var(--text-2xl-font-size);
+        }
+        
+        .intro-message {
+            width: 30ch;
+            color: var(--text-Gray);
+        }
+
+        .intro-btn {
+            font-size: var(--text-lg-font-size);
+        }
+    }
+    
+    /* xs */
+    @media (max-width: 475px) {
+        .intro-pfp {
+            width: 6rem;
+            border-radius: 50%;
+            height:130px;
+        }
+        
+        .intro-header {
+            font-size: var(--text-xl-font-size);
+        }
+        
+        .intro-message {
+            width: 20ch;
+            color: var(--text-Gray);
+        }
+
+        .intro-btn {
+            font-size: var(--text-xl-font-size);
+        }
+    }
