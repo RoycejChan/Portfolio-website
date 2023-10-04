@@ -1,7 +1,10 @@
 import React from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 
 export default function Nav() {
-
+    AOS.init();
     const scrollToSection = (sectionID) => {
 
         const section = document.getElementById(sectionID);
@@ -17,7 +20,7 @@ export default function Nav() {
 
     return (
         <section>
-                <ul id="navList">
+                <ul id="navList" data-aos={"slide-right"}>
                     <li>
                         <a href="#" className="nav-link">WORK</a>
                     </li>

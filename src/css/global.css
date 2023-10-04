@@ -52,6 +52,9 @@ margin:0;
 padding: 0;
 line-height: clac(1em + 0.5rem);
 font-family: 'Gugi', cursive;
+overflow-x: hidden;
+background-color: var(--background-dark);
+
 }
 
 
@@ -61,15 +64,7 @@ li, a {
     text-decoration-line: none;
 }
 
-.section {
-    margin-bottom:1rem;
-}
 
-.background-color {
-    background-color: var(--background-dark);
-    width: 100%;
-    padding-bottom: 2rem;
-  }
 
 purple {
     color: var(--strong-purple);
@@ -91,4 +86,9 @@ red {
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(transparent, #00bbf9);
+}
+
+.container {
+  overflow-x: hidden;
+
 }

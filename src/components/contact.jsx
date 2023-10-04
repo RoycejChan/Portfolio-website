@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <div className="background-color" id="contact-section">
+        <div className="background-color " id="contact-section">
             <div className="container contact">
                 <h1 className="contact-header">
                     Get In Contact

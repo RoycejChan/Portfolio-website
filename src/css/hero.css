@@ -1,8 +1,16 @@
 
+.pfp-container {
+    width: 25rem; 
+    height: 25rem; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
 .intro-pfp {
-    width: 11rem;
-    border-radius: 50%;
-    height:180px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
 }
 
 .intro {
@@ -13,10 +21,10 @@
     text-align: center;
     gap:3rem;
     background-image: url('../assets/headerBackground.jpg');
-    background-size: cover; /* Cover the entire header with the image */
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    background-position: center; /* Center the image horizontally and vertically */
-    height: 100vh; /* Set the header height to 100% of the viewport height */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; 
 }
 
 .intro-header {
@@ -27,15 +35,20 @@
     align-items: center;
     justify-content: center;
     gap:1rem;
+    background-color: transparent;
+
 }
 
 .handemoji {
     width: 1.5em;
+    background-color: transparent;
 }
+
 
 .intro-message {
     width: 60ch;
     color: var(--text-Gray);
+    background-color: transparent;
 }
 
 .intro-btn {
@@ -46,16 +59,16 @@
     border-radius: 15px;
     color: var(--main-White);
     cursor: pointer;
-    animation: glow 1.5s infinite alternate; /* Animation for the glowing effect */
-    transition: transform 0.2s ease-in-out; /* Transition for the transform property */
+    animation: glow 1.5s infinite alternate; 
+    transition: transform 0.2s ease-in-out; 
 }
 
 @keyframes glow {
     0% {
-      box-shadow: 0 0 30px var(--main-Pink); /* Initial glow effect */
+      box-shadow: 0 0 30px var(--main-Pink); 
     }
     100% {
-      box-shadow: 0 0 40px var(--main-Pink); /* Increased glow effect */
+      box-shadow: 0 0 40px var(--main-Pink); 
     }
   }
 
@@ -73,10 +86,10 @@
     
     /* xl */
     @media (max-width: 1280px) {
-        .intro-pfp {
-            width: 10rem;
-            border-radius: 50%;
-            height:170px;
+
+        .pfp-container {
+            width:20rem;
+            height: 20rem;
         }
         
         .intro-header {
@@ -95,20 +108,18 @@
     
     /* lg */
     @media (max-width: 1024px) {
-        .intro-pfp {
-            width: 10rem;
-            border-radius: 50%;
-            height:170px;
+        .pfp-container {
+            width:18rem;
+            height: 18rem;
         }
 
     }
     
     /* md */
     @media (max-width: 768px) {
-        .intro-pfp {
-            width: 10rem;
-            border-radius: 50%;
-            height:170px;
+        .pfp-container {
+            width:17rem;
+            height: 17rem;
         }
         
         .intro-header {
@@ -127,10 +138,9 @@
     
     /* sm */
     @media (max-width: 640px) {
-        .intro-pfp {
-            width: 7rem;
-            border-radius: 50%;
-            height:140px;
+        .pfp-container {
+            width:16rem;
+            height: 16rem;
         }
         
         .intro-header {
@@ -149,10 +159,9 @@
     
     /* xs */
     @media (max-width: 475px) {
-        .intro-pfp {
-            width: 6rem;
-            border-radius: 50%;
-            height:130px;
+        .pfp-container {
+            width:15rem;
+            height: 15rem;
         }
         
         .intro-header {

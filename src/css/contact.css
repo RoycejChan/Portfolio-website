@@ -9,9 +9,11 @@
   align-items: center;
   gap:2rem;
   padding-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 .contact-header {
+  margin-top: 10rem;
   font-size: var(--text-5xl-font-size);
 }
 
@@ -62,6 +64,8 @@
   .container {
   max-width: 768px;
 
+  }  .contact-message {
+    width: 80%;  
   }
   }
   
@@ -72,7 +76,7 @@
   }
 
   .contact-message {
-    width: 70ch;  
+    width: 80%;  
   }
 
   }

@@ -1,0 +1,229 @@
+.project {
+    overflow-y: hidden;
+    height:40rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+.project-section {
+    color: var(--main-White);
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    text-align: center;
+}
+
+.project-header p {
+    width: 50ch;
+    font-size: var(--text-xl-font-size);
+}
+
+.project-header h1 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: var(--text-7xl-font-size);
+}
+
+.project-btn {
+    font-size: var(--text-2xl-font-size);
+    padding: .5em;
+    background-color:var(--main-Pink);
+    border: none;
+    border-radius: 15px;
+    color: var(--mains-White);
+    cursor: pointer;
+    animation: glow 1.5s infinite alternate; /* Animation for the glowing effect */
+    transition: transform 0.2s ease-in-out; 
+    margin-bottom: 5rem;
+    overflow-y: hidden;
+
+}
+
+.project-btn a {
+    background-color: transparent;
+    color:white;
+}
+
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 30px var(--main-Pink); 
+    }
+    100% {
+      box-shadow: 0 0 40px var(--main-Pink);
+    }
+  }
+
+  .intro-btn:hover {
+    transform: scale(1.1);
+  }
+
+
+
+                        /* QUICKLY PROJECT */
+
+.quickly-project {
+    display: flex;
+    height: 100%;
+}
+
+.quickly-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 69%;
+    gap:2rem;
+}
+
+.quickly-details h1 {
+    font-size: var(--text-5xl-font-size);
+    overflow-y: hidden;
+
+}
+
+.quickly-details p {
+    width: 65%;
+    font-size: var(--text-lg-font-size);
+    overflow-y: hidden;
+
+}
+
+
+.quickly-img {
+    width: 50%;
+    overflow-y: hidden;
+}
+
+.quickly-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover; 
+    transition: scale .5s ease;
+}
+
+.quickly-img img:hover {
+    scale: 1.05;
+    animation: glow 1s infinite alternate; 
+}
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 10px var(--main-Pink); 
+    }
+    50% {
+        box-shadow: 0 0 30px var(--main-Pink); 
+      }
+    100% {
+      box-shadow: 0 0 40px var(--main-Pink); 
+    }
+  }
+
+
+  .container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }
+    
+    /* 2xl */
+    @media (max-width: 1536px) {
+    .container {
+    max-width: 1280px;
+    }
+    }
+    
+    /* xl */
+    @media (max-width: 1280px) {
+    .container {
+    max-width: 1024px;
+    }
+    .quickly-details p {
+        width: 40ch;
+    }
+    .quickly-project {
+        gap: 4rem;
+    }
+    }
+    
+    /* lg */
+    @media (max-width: 1024px) {
+    .container {
+    max-width: 768px;
+    }
+
+    .project {
+        height:100%;
+    }
+
+    .quickly-project {
+        flex-direction: column;
+        gap: rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .quickly-details {
+        gap:2rem;
+    }
+    .quickly-details p {
+        width: 100%;
+    }
+    .project-btn {
+        margin-bottom: 0rem;
+    }
+    .project {
+    }
+}
+    
+    
+    
+    .quickly-img {
+        width: 100%;
+    }
+    
+    .quickly-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10%;
+        object-fit: cover; 
+        transition: scale .5s ease;
+    }
+    
+    
+    /* md */
+    @media (max-width: 768px) {
+    .container {
+    max-width: 640px;
+    }
+    }
+    
+    /* sm */
+    @media (max-width: 640px) {
+    .container {
+    max-width: 475px;
+    }
+    .project-header p {
+        width: 80%;
+    }
+    }
+    
+    /* xs My phone size , iphone 11? */
+    @media (max-width: 475px) {
+    .container {
+    width: 100%;
+    }
+    }
+    
+    /* xs around iphone 6 gen */
+    @media (max-width: 380px) {
+    .container {
+    width: 100%;
+    }
+    }

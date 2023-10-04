@@ -12,8 +12,8 @@
     border-bottom: 2px solid var(--ui-lightBlue);
     padding-right:var(--text-7xl-font-size);
     width: 100%;
-    box-sizing: border-box; /* Add this to include padding and borders in the width */
-
+    box-sizing: border-box; 
+  display: none;
   }
   
   .nav-link {
@@ -30,8 +30,8 @@
   /* 2xl */
   @media (max-width: 1536px) {
     #navList {
-      font-size: var(--text-lg-font-size); /* Adjust font size */
-      gap: 2rem; /* Adjust gap between links */
+      font-size: var(--text-lg-font-size); 
+      gap: 2rem; 
     }
   }
   

@@ -9,6 +9,7 @@
     flex-direction: column;
     gap:2rem;
     width: 50%;
+    margin-top: 15rem;
 }
 
 .technologies-container {
@@ -33,13 +34,26 @@
     margin-left:2rem;
 }
 
+
 .about-img {
-    width:20rem;
+    width: 25rem; 
+    height: 50rem; 
+    border-radius: 10%; 
+    overflow: hidden;
+    margin-top: 6rem; 
     margin-left:10rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.about-pfp-img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover; 
+    object-position: center; 
+}
+
 
 .about-header {
     color:var(--main-White);
@@ -105,10 +119,19 @@
         width: 100%;
     }
 
-   .about-img {
-            width:100%;
-            margin: 0 auto;
-        padding-top: 5rem;
+    .about-img {
+        width: 30rem; 
+        height: 40rem; 
+        border-radius: 10%; 
+        overflow: hidden;
+        margin-top: 6rem; 
+    }
+    
+    .about-pfp-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        object-position: center; 
     }
 }
     
@@ -117,6 +140,16 @@
     .container {
     max-width: 640px;
     }
+
+    .about-img {
+        width: 25rem; 
+        height: 35rem; 
+        border-radius: 10%; 
+        overflow: hidden;
+        margin-top: 6rem;
+        margin-left: 7rem;
+    }
+    
     }
     
     /* sm */
@@ -129,6 +162,14 @@
         list-style-type: '\1F44D';
         margin-left:1rem;
         text-align: center;
+    }
+    .about-img {
+        width: 25rem; 
+        height: 35rem; 
+        border-radius: 10%; 
+        overflow: hidden;
+        margin-top: 6rem;
+        margin-left: 3rem;
     }
     }
     
@@ -153,8 +194,21 @@
         margin-left:1.5rem;
     }
 
+    .about-img {
+        width: 20rem; 
+        height: 30rem; 
+        border-radius: 10%; 
+        overflow: hidden;
+        margin-top: 6rem;
+        margin-left: 3.5rem;
     }
 
+    }
+
+
+
+
+    
     /* xs */
 @media (max-width: 380px) {
     .container {
@@ -167,5 +221,10 @@
         /* display: flex;
         flex-direction: column;
         gap: 2rem; */
+    }
+    .about-img {
+        width: 15rem; 
+        height: 25rem; 
+        margin-left: 3rem;
     }
     }

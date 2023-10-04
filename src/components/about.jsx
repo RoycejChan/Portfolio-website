@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMePFP from "../assets/Pfp.jpg"
+import Pfp from "../assets/Pfp.png"
 
 export default function About() {
     return (
@@ -52,7 +52,7 @@ export default function About() {
                         </div>
                         </div>
                         <div className="about-img">
-                            <img src={AboutMePFP} alt="PFP" />
+                            <img src={Pfp} alt="PFP" className="about-pfp-img"/>
                         </div>
                 </div>
             </div>
