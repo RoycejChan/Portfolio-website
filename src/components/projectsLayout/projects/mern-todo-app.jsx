@@ -19,7 +19,11 @@ export default function MernToDoApp() {
           <p>
             I made this <purple>MERN stack</purple> Task Manager App using <red>MongoDB</red> as the database, <red>Node/ExpressJS</red> for the backend,
 
-            and <red>ReactJS</red> for the Frontend. The website is fully responsive 
+            and <red>ReactJS</red> for the Frontend. This projects allowed me to gain experience with <purple>Backend Developement</purple>
+            
+            and <purple>CRUD operations</purple>
+
+            The website is fully responsive 
             
             but the server it runs on has a small amount of 
 
