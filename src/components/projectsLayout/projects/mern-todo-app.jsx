@@ -23,7 +23,7 @@ export default function MernToDoApp() {
             
             but the server it runs on has a small amount of 
 
-            ram because it's on a free server. Adding/Deleting/Fetching too many requests too quickly will crash the server.
+            ram because it's on a free server. Adding/Deleting/Fetching too many requests too quickly Will crash the server.
 
             And <red>TO MAKE THE WEBSITE WORK</red> You must first open the server,or the backend, in order for the frontend to fetch data from it.
 
