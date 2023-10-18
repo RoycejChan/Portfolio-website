@@ -1,8 +1,13 @@
+
+                        /* SCHEMA CSS FOR PROJECTS */
+
 .project {
     overflow-y: hidden;
     height:40rem;
     margin-top: 10rem;
     margin-bottom: 3rem;
+    display: flex;
+    height: 100%;
 }
 
 
@@ -30,6 +35,60 @@
     font-size: var(--text-7xl-font-size);
 }
 
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 69%;
+    gap:2rem;
+}
+
+.project-details h1 {
+    font-size: var(--text-5xl-font-size);
+    overflow-y: hidden;
+    text-align: center;
+
+}
+
+.project-details p {
+    width: 65%;
+    font-size: var(--text-lg-font-size);
+    overflow-y: hidden;
+
+}
+
+
+.project-img {
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.project-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover; 
+    transition: scale .5s ease;
+}
+
+.project-img img:hover {
+    scale: 1.05;
+    animation: glow 1s infinite alternate; 
+}
+
+        /* BUTTONS START*/
+.intro-btn:hover {
+transform: scale(1.1);
+}
+
+.project-btns {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .project-btn {
     font-size: var(--text-2xl-font-size);
     padding: .5em;
@@ -42,7 +101,6 @@
     transition: transform 0.2s ease-in-out; 
     margin-bottom: 5rem;
     overflow-y: hidden;
-
 }
 
 .project-btn a {
@@ -50,81 +108,66 @@
     color:white;
 }
 
+
+.github-repo-btn {
+    background-color:var(--main-Green);
+    color: var(--mains-White);
+    animation: github-glow 1.5s infinite alternate; /* Animation for the glowing effect */
+    transition: transform 0.2s ease-in-out; 
+}
+
+.github-repo-btn a {
+    background-color: transparent;
+    color:white;
+}
+
+.portfolio-btn {
+    font-size: var(--text-lg-font-size);
+    padding: .5em;
+    background-color:var(--main-Pink);
+    border: none;
+    border-radius: 15px;
+    color: var(--mains-White);
+    cursor: pointer;
+    animation: glow 1.5s infinite alternate; /* Animation for the glowing effect */
+    transition: transform 0.2s ease-in-out; 
+    overflow-y: hidden;
+}
+.portfolio-btn a {
+    background-color: transparent;
+    color:white;
+}
+
 @keyframes glow {
     0% {
+      box-shadow: 0 0 10px var(--main-Green); 
+    }
+    50% {
+        box-shadow: 0 0 20px var(--main-Pink); 
+      }
+    100% {
       box-shadow: 0 0 30px var(--main-Pink); 
     }
-    100% {
-      box-shadow: 0 0 40px var(--main-Pink);
-    }
   }
 
-  .intro-btn:hover {
-    transform: scale(1.1);
-  }
-
-
-
-                        /* QUICKLY PROJECT */
-
-.quickly-project {
-    display: flex;
-    height: 100%;
-}
-
-.quickly-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 69%;
-    gap:2rem;
-}
-
-.quickly-details h1 {
-    font-size: var(--text-5xl-font-size);
-    overflow-y: hidden;
-
-}
-
-.quickly-details p {
-    width: 65%;
-    font-size: var(--text-lg-font-size);
-    overflow-y: hidden;
-
-}
-
-
-.quickly-img {
-    width: 50%;
-    overflow-y: hidden;
-}
-
-.quickly-img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
-    object-fit: cover; 
-    transition: scale .5s ease;
-}
-
-.quickly-img img:hover {
-    scale: 1.05;
-    animation: glow 1s infinite alternate; 
-}
-@keyframes glow {
+  @keyframes github-glow {
     0% {
       box-shadow: 0 0 10px var(--main-Pink); 
     }
     50% {
-        box-shadow: 0 0 30px var(--main-Pink); 
+        box-shadow: 0 0 20px var(--main-Green); 
       }
     100% {
-      box-shadow: 0 0 40px var(--main-Pink); 
+      box-shadow: 0 0 30px var(--main-Green); 
     }
   }
 
 
+
+  /* BUTTONS END  */
+
+
+  
   .container {
     max-width: 1536px;
     margin-left: auto;
@@ -145,10 +188,10 @@
     .container {
     max-width: 1024px;
     }
-    .quickly-details p {
+    .project-details p {
         width: 40ch;
     }
-    .quickly-project {
+    .project {
         gap: 4rem;
     }
     }
@@ -163,38 +206,26 @@
         height:100%;
     }
 
-    .quickly-project {
+    .project {
         flex-direction: column;
         gap: rem;
         justify-content: center;
         align-items: center;
     }
-    .quickly-details {
+    .project-details {
         gap:2rem;
     }
-    .quickly-details p {
+    .project-details p {
         width: 100%;
     }
     .project-btn {
         margin-bottom: 0rem;
     }
-    .project {
-    }
 }
     
     
     
-    .quickly-img {
-        width: 100%;
-    }
-    
-    .quickly-img img{
-        width: 100%;
-        height: 100%;
-        border-radius: 10%;
-        object-fit: cover; 
-        transition: scale .5s ease;
-    }
+
     
     
     /* md */
@@ -218,6 +249,9 @@
     @media (max-width: 475px) {
     .container {
     width: 100%;
+    }
+    .project-btns {
+        flex-direction: column;
     }
     }
     

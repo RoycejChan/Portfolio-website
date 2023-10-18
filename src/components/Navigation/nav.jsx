@@ -1,22 +1,8 @@
 import React from "react";
-import AOS from 'aos';
-import "aos/dist/aos.css";
 
 
 export default function Nav() {
-    AOS.init();
-    const scrollToSection = (sectionID) => {
 
-        const section = document.getElementById(sectionID);
-
-        if (sectionID) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        } else {
-
-            alert("NO");
-        };
-
-    };
 
     return (
         <section>

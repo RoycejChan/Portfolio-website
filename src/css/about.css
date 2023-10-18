@@ -25,13 +25,13 @@
 
 .techList li {
     text-align: start;
-    list-style-type: '\1F44D';
     margin-left:1rem;
 }
 
 .techList li::before {
-    content: "";
+    content: "✅";
     margin-left:2rem;
+    
 }
 
 

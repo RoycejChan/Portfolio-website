@@ -1,6 +1,5 @@
 import React from "react";
 import Pfp from "../assets/Pfp.png"
-
 export default function About() {
     return (
             <div className="background-color" >
@@ -10,17 +9,35 @@ export default function About() {
                             About me
                         </h1>
                         <p className="about-message">
-                        Hello There! I'm <purple>Royce Escalona</purple>, a passionate tech enthusiast 
-                        based near California with a strong desire to learn 
+                        Hello! I'm <purple>Royce Escalona</purple>, a passionate tech enthusiast 
+
+                        based in California with a strong desire to learn 
+
                         and grow in this ever-changing industry. While I'm at the 
+
                         beginning of my journey, I'm excited about the endless 
+
                         possibilities that this field offers.
+
                         My portfolio is a reflection of my dedication to honing my 
-                        skills and taking on exciting challenges. I've worked on 
-                        personal projects, explored coding languages and frameworks.
+
+                        skills and taking on exciting challenges. 
+
                         I'm eager to collaborate, create, and make a positive impact 
-                        in the web development and IT community. Feel free to explore 
+
+                        in the web development and IT community.
+                        <br /> 
+                        <br />
+                        In my free time, I like to workout, play videogames, do some gardening, and do outdoor physical activities such 
+
+                        as camping, fishing, and hiking.
+                        <br /> 
+                        <br />
+                        Feel free to explore 
+
                         my portfolio and <red>join me</red> on this exciting journey.
+
+
                         </p>
                         <hr className="about-hr" />
                         <h6 className="technologies">
@@ -37,6 +54,9 @@ export default function About() {
                                 <li className="techLanguage">
                                     HTML
                                 </li>
+                                <li className="techLanguage">
+                                    Node/Express JS
+                                </li>
                             </ul>
                             <ul className="techList">
                                 <li className="techLanguage">
@@ -47,6 +67,9 @@ export default function About() {
                                 </li>
                                 <li className="techLanguage">
                                     SQL
+                                </li>
+                                <li className="techLanguage">
+                                    MongoDB
                                 </li>
                             </ul>
                         </div>
