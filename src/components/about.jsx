@@ -49,7 +49,7 @@ export default function About() {
                                     Javascript(ES6+)
                                 </li>
                                 <li className="techLanguage">
-                                    CSS + Grid + Flexbox
+                                    CSS/Grid/Flexbox
                                 </li>
                                 <li className="techLanguage">
                                     HTML
