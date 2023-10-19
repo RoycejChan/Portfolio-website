@@ -53,28 +53,42 @@
 
 .intro-btn {
     font-size: var(--text-3xl-font-size);
-    padding: .5em;
-    background-color:var(--main-Pink);
-    border: none;
-    border-radius: 15px;
-    color: var(--main-White);
+    padding: .5em 1.5em;
+    background-color: transparent;
+    border: 5px solid var(--main-Pink);
+    color: var(--main-Pink);
     cursor: pointer;
-    animation: glow 1.5s infinite alternate; 
-    transition: transform 0.2s ease-in-out; 
+    transition: transform 1s ease-in-out !important; /* Add a transition property */
 }
 
-@keyframes glow {
+.intro-btn:hover {
+    transform:translateY(-10px) !important; /* Scale up and move up by 5px on hover */
+}
+.intro-btn:active {
+background-color: var(--main-Pink);
+color: black;
+border:5px solid black;
+}
+.hero-emoji {
+    background-color: transparent;
+    margin-top: -1.1rem;
+    font-size: 1em;
+}
+/* @keyframes glow-slide {
     0% {
-      box-shadow: 0 0 30px var(--main-Pink); 
+        transform: translateY(0);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        transform: translateY(-10px); 
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
     }
     100% {
-      box-shadow: 0 0 40px var(--main-Pink); 
+        transform: translateY(0);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
-  }
+} */
 
-  .intro-btn:hover {
-    transform: scale(1.1);
-  }
 
 
     /* 2xl */
@@ -162,6 +176,12 @@
         .pfp-container {
             width:15rem;
             height: 15rem;
+        }
+
+        .hero-emoji {
+            background-color: transparent;
+            margin-top: -.5rem;
+            font-size: 1.5em;
         }
         
         .intro-header {

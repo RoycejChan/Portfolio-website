@@ -15,6 +15,18 @@
 .contact-header {
   margin-top: 10rem;
   font-size: var(--text-5xl-font-size);
+  background-color: transparent;
+  z-index: 999;
+}
+.header-box-contact {
+  background-color: var(--main-Pink);
+  height: 1.4em;
+  width: 300px;
+  position: relative;
+  top: -55px;
+  left: 45px;
+  z-index: 2; /* Lower z-index for the header box */
+  opacity: .9;
 }
 
 .contact-message {
@@ -106,6 +118,9 @@
     width: 10rem;
     padding: .5em;
   }
+  .header-box-contact {
+    width: 250px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -119,5 +134,8 @@
   .contact-header {
     font-size: 2.5rem;
     margin-top: 2rem;
+  }
+  .header-box-contact {
+    width: 220px;
   }
 }

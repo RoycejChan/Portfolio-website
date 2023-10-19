@@ -7,9 +7,11 @@ export default function About() {
             <div className="background-color" >
                 <div className="about-container container section" id="about-section">
                     <div className="about">
-                        <h1 className="about-header">
+
+                        <h1 className="about-header ">
                             About me
                         </h1>
+                        <div className="header-box-about"></div>
                         <p className="about-message">
                         Hello! I'm <purple>Royce Escalona</purple>, a passionate tech enthusiast 
 

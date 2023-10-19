@@ -21,8 +21,8 @@ export default function Footer() {
     return (
         <div id="background-color-footer">
             <div className="container footer">
-                <button className="footer-btn">
-                    <img src={up} alt="Up button" className="restart-btn" id="gobackup" onClick={() => goBackUp('hero-section')}/>
+                <button className="footer-btn" onClick={() => goBackUp('hero-section')}>
+                    <img src={up} alt="Up button" className="restart-btn" id="gobackup" />
                 </button>
                 <div className="mediaListContainer">
                         <ul className="mediaList">

@@ -24,7 +24,7 @@ export default function Hero() {
                  <img src={Pfp} alt="Profile Picture" className="intro-pfp" />
             </div>
             <h2 className="intro-header animate__animated animate__backInDown"  >
-                Hello, Im Royce <span><img src={Handemoji} alt="Waving Hand Emoji" class="handemoji" /></span>
+                Hello, Im Royce <span className="hero-emoji">👋</span>
             </h2>
             <h1 className="intro-message animate__animated animate__backInUp" >
             A self-taught enthusiast in coding and IT tech, 
@@ -32,7 +32,7 @@ export default function Hero() {
             innovation. Welcome to my portfolio, where I showcase my journey
             and projects.
             </h1>
-            <button className="intro-btn" onClick={()=> scrollToSection('projects-section')}>View my Work</button>
+            <button className="intro-btn  animate__animated animate__backInUp animate__delay-1s" onClick={()=> scrollToSection('projects-section')}>View my Work 👇</button>
         </section>
     )
 }

@@ -15,6 +15,8 @@
     flex-wrap: wrap; 
     gap:2rem;
     margin-top: 2rem;
+    padding-top: 1rem;
+
 }
 
 .mediaList a {
@@ -56,9 +58,8 @@
 
 
 .footer-btn:hover, .mediaItem:hover {
-    transform:translateY(-10px);       
+    transform:translateY(-10px);
 }
-
 .restart-btn {
     width:3.5em;
     background-color: var(--main-White);

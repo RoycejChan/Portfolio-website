@@ -8,6 +8,7 @@ export default function Projects() {
             <div className="project-section container ">
                             <div className="project-header">
                                 <h1>Projects</h1>
+                                <div className="header-box-projects"></div>
                                 <p>Here you can find a list of Projects and Work I've done.</p>
                             </div>
 {/* PROJECTS */}

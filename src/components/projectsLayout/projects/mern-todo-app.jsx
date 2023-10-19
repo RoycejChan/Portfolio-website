@@ -11,8 +11,8 @@ export default function MernToDoApp() {
 
   
   <div className="project">
-      <div className="project-img">
-          <a href="https://mern-todotask-app.onrender.com/" target="blank_"><img src={taskManagerSS} alt="" /></a>
+      <div className="task-manager-img">
+          <a href="https://mern-todotask-app.onrender.com/"  target="blank_"><img src={taskManagerSS} alt="" /></a>
       </div>
       <div className="project-details">
           <h1>MERN STACK TASK MANAGER</h1>

@@ -10,8 +10,15 @@
     gap:2rem;
     width: 50%;
     margin-top: 15rem;
+    z-index: 999;
 }
-
+.header-box {
+  background-color: var(--main-Pink); /* Pink color */
+  height: 10px; /* Adjust the height as needed */
+  width: 100%; /* Full width of the container */
+  position: relative;
+  top: 10px; /* Adjust the distance from the text */
+}
 .technologies, .technologies-container {
     margin-left: 1rem;
 }
@@ -57,11 +64,30 @@
 }
 
 
+
+
+
 .about-header {
-    color:var(--main-White);
-    font-size: var(--text-4xl-font-size);
-    margin-top:1rem;
+    color: var(--main-White);
+    font-size: var(--text-5xl-font-size);
+    margin-top: 1rem;
+    background: transparent;
+    z-index: 999; 
 }
+
+.header-box-about {
+    background-color: var(--main-Pink);
+    height: 1.2em;
+    width: 200px;
+    position: relative;
+    top: -55px;
+    left: 43px;
+    z-index: 2; 
+    opacity: .9;
+
+}
+
+
 
 .about-message {
     color:var(--text-Gray);

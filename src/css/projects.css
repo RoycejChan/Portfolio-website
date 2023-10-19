@@ -33,8 +33,21 @@
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: var(--text-7xl-font-size);
+    background-color: transparent;
+    z-index: 999;
 }
+.header-box-projects {
+    background-color: var(--main-Pink);
+    height: 1.5em;
+    width: 250px;
+    position: relative;
+    top: -75px;
+    left: 43px;
+    z-index: 2; /* Lower z-index for the header box */
+    opacity: .9;
 
+
+}
 .project-details {
     display: flex;
     flex-direction: column;
@@ -77,6 +90,17 @@
     animation: glow 1s infinite alternate; 
 }
 
+.task-manager-img {
+    overflow-y: hidden;
+    width: 100%;
+}
+.task-manager-img img{
+    width: 100%;
+    height: 90%;
+    border-radius: 10%;
+    object-fit: cover; 
+    transition: scale .5s ease;
+}
         /* BUTTONS START*/
 .intro-btn:hover {
 transform: scale(1.1);
@@ -87,6 +111,7 @@ transform: scale(1.1);
     gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
+    width: 55%;
 }
 
 .project-btn {
@@ -140,25 +165,25 @@ transform: scale(1.1);
 
 @keyframes glow {
     0% {
-      box-shadow: 0 0 10px var(--main-Green); 
+      box-shadow: 0 0 8px var(--main-Green); 
     }
     50% {
-        box-shadow: 0 0 20px var(--main-Pink); 
+        box-shadow: 0 0 12px var(--main-Pink); 
       }
     100% {
-      box-shadow: 0 0 30px var(--main-Pink); 
+      box-shadow: 0 0 18px var(--main-Pink); 
     }
   }
 
   @keyframes github-glow {
     0% {
-      box-shadow: 0 0 10px var(--main-Pink); 
+      box-shadow: 0 0 8px var(--main-Pink); 
     }
     50% {
-        box-shadow: 0 0 20px var(--main-Green); 
+        box-shadow: 0 0 12px var(--main-Green); 
       }
     100% {
-      box-shadow: 0 0 30px var(--main-Green); 
+      box-shadow: 0 0 18px var(--main-Green); 
     }
   }
 
@@ -259,5 +284,9 @@ transform: scale(1.1);
     @media (max-width: 380px) {
     .container {
     width: 100%;
+    }
+    .header-box-projects {
+        width: 220px;
+    
     }
     }
