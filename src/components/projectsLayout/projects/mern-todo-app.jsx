@@ -25,11 +25,11 @@ export default function MernToDoApp() {
 
             The website is fully responsive 
             
-            but the server it runs on has a small amount of 
+            but since the server runs on a free server, it has little ram, meaning too many CRUD operations will cause the server to crash.
 
-            ram because it's on a free server. Adding/Deleting/Fetching too many requests too quickly Will crash the server.
+            It also means the server takes about 1-2 minutes to respond back after the frontend is opened,then can it be refreshed.
 
-            And <red>TO MAKE THE WEBSITE WORK</red> You must first open the server,or the backend, in order for the frontend to fetch data from it.
+            This doesnt have to do anything with the code itself, just the free hosting service I ues to showcase the work. 
 
 
           </p>
