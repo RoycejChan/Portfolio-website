@@ -1,5 +1,7 @@
 import React from "react";
-import Pfp from "../assets/Pfp.png"
+// import Pfp from "../assets/Pfp.png"
+import otherPfp from "../assets/otherpfp.png"
+
 export default function About() {
     return (
             <div className="background-color" >
@@ -75,7 +77,7 @@ export default function About() {
                         </div>
                         </div>
                         <div className="about-img">
-                            <img src={Pfp} alt="PFP" className="about-pfp-img"/>
+                            <img src={otherPfp} alt="PFP" className="about-pfp-img"/>
                         </div>
                 </div>
             </div>
