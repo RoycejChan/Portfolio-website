@@ -20,6 +20,7 @@ export default function Chatio() {
 
                 Chat App I Coded with <purple>SocketIO</purple> and React. 
                 I didn't realize until being done with 95% of the code that Socket IO allows 'relations', if I had implemented it, user Messages could be tied to their own IDs, but I worked around it.
+                I was learning firebase during the time of code this, but I prefered to choose socketio as my main tech because I wanted to learn firebase with another project I had planned.
                 Any form of Feedback is much appreciated.
                 Again, server that app is hosted on is free, so it's out of my control and used for showcasing purposes.
 
