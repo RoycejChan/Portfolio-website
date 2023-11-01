@@ -75,6 +75,8 @@
 .project-img {
     overflow-y: hidden;
     width: 100%;
+    transition: scale .5s ease;
+
 }
 
 .project-img img{
@@ -85,10 +87,14 @@
     transition: scale .5s ease;
 }
 
-.project-img img:hover {
+.project-img:hover {
+    scale:0.95;
+}
+
+/* .project-img img:hover {
     scale: 1.05;
     animation: glow 1s infinite alternate; 
-}
+} */
 
 .task-manager-img {
     overflow-y: hidden;

@@ -21,8 +21,8 @@ export default function QuicklyWebsite() {
       and unfortunately, there is no backend. I have learned alot from this project and realized better practices and method I could have used, and that will show in my future projects.
   </p>
         <div className="project-btns">
-          <button className="project-btn"><a href="https://stocktonquickly.netlify.app/" target="blank_">Website</a></button>
-          <button className="project-btn github-repo-btn"><a href="https://github.com/rroyceee/website-for-quickly-restaurant/tree/master" target="blank_">Github Repo</a></button>
+          <button className="project-btn"><a href="https://stocktonquickly.netlify.app/" target="blank_">Live Site</a></button>
+          <button className="project-btn github-repo-btn"><a href="https://github.com/rroyceee/website-for-quickly-restaurant/tree/master" target="blank_">Learn more</a></button>
         </div>
       </div>
   </div>

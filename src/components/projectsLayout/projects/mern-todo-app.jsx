@@ -11,7 +11,7 @@ export default function MernToDoApp() {
 
   
   <div className="project">
-      <div className="task-manager-img">
+      <div className="task-manager-img project-img">
           <a href="https://mern-todotask-app.onrender.com/"  target="blank_"><img src={taskManagerSS} alt="" /></a>
       </div>
       <div className="project-details">
@@ -34,10 +34,9 @@ export default function MernToDoApp() {
 
           </p>
         <div className="project-btns">
-          <button className="project-btn"><a href="https://mern-todotask-app.onrender.com/" target="blank_">Website</a></button>
+          <button className="project-btn"><a href="https://mern-todotask-app.onrender.com/" target="blank_">Live app</a></button>
 
-          <button className="project-btn github-repo-btn"><a href="https://github.com/rroyceee/todo-MERN-app-Frontend/tree/master" target="blank_">Github Frontend Repo</a></button>
-          <button className="project-btn github-repo-btn"><a href="https://github.com/rroyceee/todo-MERN-app-Backend/tree/main" target="blank_">Github Backend Repo</a></button>
+          <button className="project-btn github-repo-btn"><a href="https://github.com/rroyceee/todo-MERN-app-Frontend/tree/master" target="blank_">Learn more</a></button>
         </div>
       </div>
   </div>
