@@ -28,7 +28,7 @@ export default function Footer() {
                         <ul className="mediaList">
                             <li className="mediaItem"><a href="mailto:Rouyce23@gmail.com" target="_blank"><img src={email} alt="Email" className="mediaImage"/></a></li>
                             <li className="mediaItem"><a href="https://www.linkedin.com/in/royceescalona/" target="_blank"><img src={linkedln} alt="Linkedln" className="mediaImage" /></a></li>
-                            <li className="mediaItem"><a href="https://github.com/rroyceee" target="_blank"><img src={github} alt="Github" className="mediaImage"/></a></li>
+                            <li className="mediaItem"><a href="https://github.com/RoycejChan" target="_blank"><img src={github} alt="Github" className="mediaImage"/></a></li>
                         </ul>
                 </div>
                 <button className="portfolio-btn"><a href="https://github.com/rroyceee/Portfolio-website" target="blank_">Portfolio Repo</a></button>

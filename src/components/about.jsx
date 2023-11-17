@@ -61,6 +61,9 @@ export default function About() {
                                 <li className="techLanguage">
                                     Node/Express JS
                                 </li>
+                                <li className="techLanguage">
+                                    Google Firebase
+                                </li>
                             </ul>
                             <ul className="techList">
                                 <li className="techLanguage">
@@ -74,6 +77,12 @@ export default function About() {
                                 </li>
                                 <li className="techLanguage">
                                     MongoDB
+                                </li>
+                                <li className="techLanguage">
+                                    Material UI
+                                </li>
+                                <li className="techLanguage">
+                                    Tailwind CSS
                                 </li>
                             </ul>
                         </div>
