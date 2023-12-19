@@ -86,3 +86,19 @@
     }
     }
 
+.emailFlex {
+    display:flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap:1rem;
+}
+
+.emailMsg {
+    margin-top:2rem !important; 
+}
+
+.emailSubject {
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}

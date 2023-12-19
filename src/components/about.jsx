@@ -63,6 +63,9 @@ export default function About() {
                                 </li>
                                 <li className="techLanguage">
                                     Google Firebase
+                                </li>                         
+                               <li className="techLanguage">
+                                    TypeScript
                                 </li>
                             </ul>
                             <ul className="techList">
@@ -73,16 +76,19 @@ export default function About() {
                                     Python
                                 </li>
                                 <li className="techLanguage">
-                                    SQL
+                                    MySQL
                                 </li>
                                 <li className="techLanguage">
                                     MongoDB
                                 </li>
                                 <li className="techLanguage">
-                                    Material UI
+                                    Material & Chakra UI
                                 </li>
                                 <li className="techLanguage">
                                     Tailwind CSS
+                                </li>
+                                <li className="techLanguage">
+                                    AWS RDS DB
                                 </li>
                             </ul>
                         </div>

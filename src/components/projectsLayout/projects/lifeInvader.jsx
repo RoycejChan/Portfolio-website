@@ -17,7 +17,7 @@ export default function LifeInvader() {
       <div className="project-details">
           <h1>Life Invader Social Media App</h1>
           <p>
-            I made this <purple>Full Stack </purple>Social Media App using <red>Firestore</red> as the database, <red>Firebase</red> for the backend and user authentication,
+            I made this <purple>Full Stack CMS </purple>Social Media App using <red>Firestore</red> as the database, <red>Firebase</red> for the backend and user authentication,
 
             <red>ReactJS</red> for the Frontend, and <red>Material UI</red> for the styling.
 
