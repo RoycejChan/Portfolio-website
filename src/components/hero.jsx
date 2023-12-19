@@ -27,11 +27,7 @@ export default function Hero() {
                 Hello, Im Royce <span className="hero-emoji">👋</span>
             </h2>
             <h1 className="intro-message animate__animated animate__backInUp" >
-            A self-taught enthusiast in coding and IT tech, 
-            I'm on a mission to break into the world of technology and 
-            innovation. Welcome to my portfolio, where I showcase my journey
-            and projects.
-            </h1>
+            As a versatile web developer, my portfolio reflects a commitment to continuous growth and passion for tackling exciting challenges.            </h1>
             <button className="intro-btn  animate__animated animate__backInUp animate__delay-1s" onClick={()=> scrollToSection('projects-section')}>View my Work 👇</button>
         </section>
     )

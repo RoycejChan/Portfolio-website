@@ -25,6 +25,7 @@
     background-repeat: no-repeat; 
     background-position: center; 
     height: 100vh; 
+    overflow-y:hidden;
 }
 
 .intro-header {
@@ -49,6 +50,8 @@
     width: 60ch;
     color: var(--text-Gray);
     background-color: transparent;
+    font-size: var(--text-xl-font-size);
+    overflow-y:hidden;
 }
 
 .intro-btn {
