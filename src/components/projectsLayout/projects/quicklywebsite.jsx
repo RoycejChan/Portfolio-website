@@ -15,22 +15,22 @@ export default function QuicklyWebsite() {
 
   
   <div className="project">
-      <div className="project-img">
+      <div className="project-img imghidden">
           <a href="https://stocktonquickly.netlify.app/" target="blank_"><img src={quicklySS} alt="" /></a>
       </div>
       <div className="project-details">
           <h1>Quickly Website</h1>
           <div className="projectLanguages">
-              <div>
+              <div className="hidden stackLogo">
                  <img src={html} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={css} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={js} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={react} alt="" />
               </div>
           </div>

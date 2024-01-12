@@ -5,10 +5,10 @@ export default function Contact() {
     return (
         <div className="background-color " id="contact-section">
             <div className="container contact">
-                <h1 className="contact-header">
+                <h1 className="contact-header imghidden">
                     Get In Contact
                 </h1>
-                <div className="header-box-contact"></div>
+                <div className="header-box-contact imghidden"></div>
 
                 <p className="contact-message">
                     Whether you are starting a project, have business inquiries or questions, or just want to say hi,

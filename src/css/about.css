@@ -33,11 +33,14 @@ nologies, .technologies-container {
     gap:3rem;
     justify-content:center;
     align-content:center;
+    overflowY:hidden;
 } 
 
 .techList li {
     max-width: 100px; 
     overflow: hidden; 
+    overflowY:hidden;
+
 }
 
 .techList li img {

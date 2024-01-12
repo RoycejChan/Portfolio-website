@@ -58,7 +58,8 @@
 
 .projectLanguages div {
     width: 50px; 
-    overflow: hidden; 
+    overflow: hidden;
+
 }
 .projectLanguages img{
     width: 100%; /* Make the image take 100% of the container width */
@@ -186,6 +187,75 @@ transform: scale(1.1);
     background-color: transparent;
     color:white;
 }
+.technologies-container {
+}
+.techList {
+    padding:2rem;
+    overflow:hidden;
+}
+.showtech {
+    opacity:1;
+    transform:translateY(0%);
+    filter:blur(0);
+    overflowY:hidden;
+}
+.hidetech {
+    opacity:0;
+    filter:blur(5px);
+    transform:translateY(50%);
+    transition:all .75s;
+    overflowY:clip;
+}
+
+
+
+.showimg {
+    opacity:1;
+    transform:translateX(0%);
+    filter:blur(0);
+}
+.imghidden {
+    opacity:0;
+    filter:blur(5px);
+    transform:translateX(-50%);
+    transition:all .75s;
+}
+.hidden {   
+    opacity:0;
+    filter:blur(5px);
+    transform:translateX(50%);
+    transition:all 1.5s;
+}
+.show {
+    opacity:1;
+    transform:translateX(0%);
+    filter:blur(0);
+}
+.stackLogo {
+    transition-delay:100ms;
+}
+.stackLogo:nth-child(2) {
+    transition-delay:200ms;
+}.stackLogo:nth-child(3) {
+    transition-delay:300ms;
+}.stackLogo:nth-child(4) {
+    transition-delay:400ms;
+}.stackLogo:nth-child(5) {
+    transition-delay:500ms;
+}.stackLogo:nth-child(6) {
+    transition-delay:600ms;
+}.stackLogo:nth-child(7) {
+    transition-delay:700ms;
+}.stackLogo:nth-child(8) {
+    transition-delay:800ms;
+}.stackLogo:nth-child(9) {
+    transition-delay:900ms;
+}.stackLogo:nth-child(10) {
+    transition-delay:1000ms;
+}.stackLogo:nth-child(11) {
+    transition-delay:1100ms;
+}
+
 
 @keyframes glow {
     0% {

@@ -24,10 +24,10 @@ export default function About() {
                 <div className="about-container container section" id="about-section">
                     <div className="about">
 
-                        <h1 className="about-header ">
+                        <h1 className="about-header imghidden ">
                             About me
                         </h1>
-                        <div className="header-box-about"></div>
+                        <div className="header-box-about imghidden"></div>
                         <p className="about-message">
                         Hello! I'm <purple>Royce Escalona</purple>, a passionate tech enthusiast 
 
@@ -65,54 +65,54 @@ export default function About() {
                         </h6>
                         <div className="technologies-container">
                             <ul className="techList">
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                     <img src={js} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                     <img src={tailwindCSS} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                     <img src={html} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={node} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={express} alt="" />
                                 </li>   
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={css} alt="" />
                                 </li>                       
-                               <li className="techLanguage">
+                               <li className="techLanguage hidetech stackLogo">
                                <img src={typescript} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={react} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={python} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={mysql} alt="" />
 
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={mongodb} alt="" />
 
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={materialUI} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={chakraUI} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={django} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={firebase} alt="" />
                                 </li>
-                                <li className="techLanguage">
+                                <li className="techLanguage hidetech stackLogo">
                                 <img src={aws} alt="" />
                                 </li>
                             </ul>

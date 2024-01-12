@@ -16,25 +16,25 @@ export default function Chatio() {
 
   
   <div className="project">
-      <div className="task-manager-img project-img">
+      <div className="task-manager-img project-img imghidden">
           <a href="https://roycechatappio.onrender.com/"  target="blank_"><img src={chatio} alt="" /></a>
       </div>
       <div className="project-details">
           <h1>Chat IO Chat App</h1>
           <div className="projectLanguages">
-              <div>
+              <div className="hidden stackLogo">
                  <img src={html} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={css} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={js} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={react} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={socketIO} alt="" />
               </div>
               </div>

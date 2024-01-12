@@ -23,47 +23,47 @@ export default function SernCrmApp() {
     return (
         <>
 
-            {/* life Invader  PROJECT */}
+            {/* sernstack  PROJECT */}
 
   
-  <div className="project">
-      <div className="task-manager-img project-img">
+  <div className="project serncrm">
+      <div className="task-manager-img project-img imghidden">
           <a href="https://contractorcrm.onrender.com/"  target="blank_"><img src={contractorSS} alt="" /></a>
       </div>
       <div className="project-details">
           <h1>Contractor CRM</h1>
           <div className="projectLanguages">
-              <div>
+              <div className="hidden stackLogo">
                  <img src={html} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={css} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={js} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={tailwindCSS} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={typescript} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={chakraUI} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={react} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={aws} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={node} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={express} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={mysql} alt="" />
               </div>
           </div>

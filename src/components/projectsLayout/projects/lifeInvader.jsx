@@ -18,31 +18,31 @@ export default function LifeInvader() {
 
   
   <div className="project">
-      <div className="task-manager-img project-img">
+      <div className="task-manager-img project-img imghidden">
           <a href="https://lifein-e0258.web.app/"  target="blank_"><img src={lifeInvaderSS} alt="" /></a>
       </div>
       <div className="project-details">
           <h1>Life Invader Social Media App</h1>
           <div className="projectLanguages">
-              <div>
+            <div className="hidden stackLogo">
                  <img src={html} alt="" />
               </div>
-              <div>
+            <div className="hidden stackLogo">
                  <img src={css} alt="" />
               </div>
-              <div>
+            <div className="hidden stackLogo">
                  <img src={js} alt="" />
               </div>
-              <div>
+            <div className="hidden stackLogo">
                  <img src={tailwindCSS} alt="" />
               </div>
-              <div>
+            <div className="hidden stackLogo">
                  <img src={materialUI} alt="" />
               </div>
-              <div>
+            <div className="hidden stackLogo">
                  <img src={react} alt="" />
               </div>
-              <div>
+            <div className="hidden stackLogo">
                  <img src={firebase} alt="" />
               </div>
           </div>

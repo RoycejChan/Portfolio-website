@@ -18,32 +18,32 @@ export default function MernToDoApp() {
 
   
   <div className="project">
-      <div className="task-manager-img project-img">
+      <div className="task-manager-img project-img imghidden">
           <a href="https://mern-todotask-app.onrender.com/"  target="blank_"><img src={taskManagerSS} alt="" /></a>
       </div>
       <div className="project-details">
           <h1>MERN STACK TASK MANAGER</h1>
           <div className="projectLanguages">
-              <div>
+              <div className="hidden stackLogo">
                  <img src={html} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={css} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={js} alt="" />
               </div>
            
-              <div>
+              <div className="hidden stackLogo">
                  <img src={react} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={node} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={express} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={mongodb} alt="" />
               </div>
           </div>

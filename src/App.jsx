@@ -18,6 +18,50 @@ import './css/projects.css'
 
 export default function App() {
 
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show')
+            } else {
+                entry.target.classList.remove('show')
+            }
+        })
+    }) 
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el)=> observer.observe(el));
+
+
+
+    const imgobserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('showimg')
+            } else {
+                entry.target.classList.remove('showimg')
+            }
+        })
+    }) 
+
+    const hiddenimgs = document.querySelectorAll(".imghidden");
+    hiddenimgs.forEach((el)=> observer.observe(el));
+
+
+
+
+
+
+    const aboutObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('showtech')
+            } else {
+                entry.target.classList.remove('showtech')
+            }
+        })
+    }) 
+    const hiddentech = document.querySelectorAll(".hidetech");
+    hiddentech.forEach((el)=> observer.observe(el));
     return (
         <div>
             <Nav />

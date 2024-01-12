@@ -25,7 +25,7 @@ export default function RothDivCalc() {
             {/* life Invader  PROJECT */}
 
   <div className="project">
-      <div className="task-manager-img project-img">
+      <div className="task-manager-img project-img imghidden">
           <a href="https://rothdividendcalc.onrender.com/"  target="blank_">
             <img src="https://i.gyazo.com/13e3084addea830e07bc016b3cdbacbc.gif" alt="Roth Dividend Calculator Screenshot Image Not Available" />
           </a>
@@ -33,31 +33,31 @@ export default function RothDivCalc() {
       <div className="project-details">
           <h1>RothDivCalc</h1>
           <div className="projectLanguages">
-              <div>
+              <div className="hidden stackLogo">
                  <img src={html} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={css} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={js} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={tailwindCSS} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={materialUI} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={react} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={python} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={django} alt="" />
               </div>
-              <div>
+              <div className="hidden stackLogo">
                  <img src={typescript} alt="" />
               </div>
           </div>
