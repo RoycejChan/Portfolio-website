@@ -2,14 +2,13 @@ import React from "react";
 // import Pfp from "../assets/Pfp.png"
 import otherPfp from "../assets/otherpfp.png"
 import html from "../assets/CodeLangLogos/html.png"
-import lifeInvaderSS from "../assets/projectScreenshots/lifeInvader.png"
 import tailwindCSS from "../assets/CodeLangLogos/tailwind.png"
 import materialUI from "../assets/CodeLangLogos/materialUI.png"
 import chakraUI from "../assets/CodeLangLogos/chakraUI.png"
 import typescript from "../assets/CodeLangLogos/typescript.png"
 import react from "../assets/CodeLangLogos/reactlogo.png"
 import python from "../assets/CodeLangLogos/pythonlogo.png"
-import node from "../assets/CodeLangLogos/js.png"
+import node from "../assets/CodeLangLogos/nodejs.png"
 import mysql from "../assets/CodeLangLogos/mysql.png"
 import mongodb from "../assets/CodeLangLogos/mongodb.png"
 import js from "../assets/CodeLangLogos/js.png"
@@ -108,7 +107,10 @@ export default function About() {
                                 <img src={chakraUI} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                <img src={tailwindCSS} alt="" />
+                                <img src={django} alt="" />
+                                </li>
+                                <li className="techLanguage">
+                                <img src={firebase} alt="" />
                                 </li>
                                 <li className="techLanguage">
                                 <img src={aws} alt="" />
