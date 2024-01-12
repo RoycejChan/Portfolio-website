@@ -1,5 +1,11 @@
 import React from "react";
 import quicklySS from "../../../assets/projectScreenshots/quicklyss.jpg"
+import html from "../../../assets/CodeLangLogos/html.png"
+import react from "../../../assets/CodeLangLogos/reactlogo.png"
+
+import js from "../../../assets/CodeLangLogos/js.png"
+import css from "../../../assets/CodeLangLogos/css.png"
+
 
 export default function QuicklyWebsite() {
     return (
@@ -14,6 +20,20 @@ export default function QuicklyWebsite() {
       </div>
       <div className="project-details">
           <h1>Quickly Website</h1>
+          <div className="projectLanguages">
+              <div>
+                 <img src={html} alt="" />
+              </div>
+              <div>
+                 <img src={css} alt="" />
+              </div>
+              <div>
+                 <img src={js} alt="" />
+              </div>
+              <div>
+                 <img src={react} alt="" />
+              </div>
+          </div>
           <p>I made this website for the restuarant called "Quickly" at their Stockton, CA store.
       It is responsive and mobile friendly. This website was built with <red>React</red>
       . Each page is its own component, and navigates through each one with Routes. I made a <red>JSON file</red> to store the menu's 

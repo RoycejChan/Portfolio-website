@@ -1,6 +1,23 @@
 import React from "react";
 // import Pfp from "../assets/Pfp.png"
 import otherPfp from "../assets/otherpfp.png"
+import html from "../assets/CodeLangLogos/html.png"
+import lifeInvaderSS from "../assets/projectScreenshots/lifeInvader.png"
+import tailwindCSS from "../assets/CodeLangLogos/tailwind.png"
+import materialUI from "../assets/CodeLangLogos/materialUI.png"
+import chakraUI from "../assets/CodeLangLogos/chakraUI.png"
+import typescript from "../assets/CodeLangLogos/typescript.png"
+import react from "../assets/CodeLangLogos/reactlogo.png"
+import python from "../assets/CodeLangLogos/pythonlogo.png"
+import node from "../assets/CodeLangLogos/js.png"
+import mysql from "../assets/CodeLangLogos/mysql.png"
+import mongodb from "../assets/CodeLangLogos/mongodb.png"
+import js from "../assets/CodeLangLogos/js.png"
+import firebase from "../assets/CodeLangLogos/firebase.png"
+import express from "../assets/CodeLangLogos/express.png"
+import django from "../assets/CodeLangLogos/django.png"
+import css from "../assets/CodeLangLogos/css.png"
+import aws from "../assets/CodeLangLogos/aws.png"
 
 export default function About() {
     return (
@@ -50,45 +67,51 @@ export default function About() {
                         <div className="technologies-container">
                             <ul className="techList">
                                 <li className="techLanguage">
-                                    Javascript(ES6+)
+                                    <img src={js} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    CSS/Tailwind/Flexbox
+                                    <img src={tailwindCSS} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    HTML
+                                    <img src={html} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    Node/Express JS
+                                <img src={node} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    Google Firebase
-                                </li>                         
+                                <img src={express} alt="" />
+                                </li>   
+                                <li className="techLanguage">
+                                <img src={css} alt="" />
+                                </li>                       
                                <li className="techLanguage">
-                                    TypeScript
-                                </li>
-                            </ul>
-                            <ul className="techList">
-                                <li className="techLanguage">
-                                    ReactJS
+                               <img src={typescript} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    Python
+                                <img src={react} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    MySQL
+                                <img src={python} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    MongoDB
+                                <img src={mysql} alt="" />
+
                                 </li>
                                 <li className="techLanguage">
-                                    Material & Chakra UI
+                                <img src={mongodb} alt="" />
+
                                 </li>
                                 <li className="techLanguage">
-                                    Tailwind CSS
+                                <img src={materialUI} alt="" />
                                 </li>
                                 <li className="techLanguage">
-                                    AWS RDS DB
+                                <img src={chakraUI} alt="" />
+                                </li>
+                                <li className="techLanguage">
+                                <img src={tailwindCSS} alt="" />
+                                </li>
+                                <li className="techLanguage">
+                                <img src={aws} alt="" />
                                 </li>
                             </ul>
                         </div>

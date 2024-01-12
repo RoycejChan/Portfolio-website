@@ -1,5 +1,12 @@
 import React from "react";
 import lifeInvaderSS from "../../../assets/projectScreenshots/lifeInvader.png"
+import tailwindCSS from "../../../assets/CodeLangLogos/tailwind.png"
+import materialUI from "../../../assets/CodeLangLogos/materialUI.png"
+import html from "../../../assets/CodeLangLogos/html.png"
+import react from "../../../assets/CodeLangLogos/reactlogo.png"
+import js from "../../../assets/CodeLangLogos/js.png"
+import firebase from "../../../assets/CodeLangLogos/firebase.png"
+import css from "../../../assets/CodeLangLogos/css.png"
 
 
 
@@ -16,6 +23,29 @@ export default function LifeInvader() {
       </div>
       <div className="project-details">
           <h1>Life Invader Social Media App</h1>
+          <div className="projectLanguages">
+              <div>
+                 <img src={html} alt="" />
+              </div>
+              <div>
+                 <img src={css} alt="" />
+              </div>
+              <div>
+                 <img src={js} alt="" />
+              </div>
+              <div>
+                 <img src={tailwindCSS} alt="" />
+              </div>
+              <div>
+                 <img src={materialUI} alt="" />
+              </div>
+              <div>
+                 <img src={react} alt="" />
+              </div>
+              <div>
+                 <img src={firebase} alt="" />
+              </div>
+          </div>
           <p>
             I made this <purple>Full Stack CMS </purple>Social Media App using <red>Firestore</red> as the database, <red>Firebase</red> for the backend and user authentication,
 

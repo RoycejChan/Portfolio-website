@@ -1,5 +1,12 @@
 import React from "react";
 import taskManagerSS from "../../../assets/projectScreenshots/merntaskmanagerss.png"
+import html from "../../../assets/CodeLangLogos/html.png"
+import react from "../../../assets/CodeLangLogos/reactlogo.png"
+import node from "../../../assets/CodeLangLogos/nodejs.png"
+import mongodb from "../../../assets/CodeLangLogos/mongodb.png"
+import js from "../../../assets/CodeLangLogos/js.png"
+import express from "../../../assets/CodeLangLogos/express.png"
+import css from "../../../assets/CodeLangLogos/css.png"
 
 
 
@@ -16,6 +23,30 @@ export default function MernToDoApp() {
       </div>
       <div className="project-details">
           <h1>MERN STACK TASK MANAGER</h1>
+          <div className="projectLanguages">
+              <div>
+                 <img src={html} alt="" />
+              </div>
+              <div>
+                 <img src={css} alt="" />
+              </div>
+              <div>
+                 <img src={js} alt="" />
+              </div>
+           
+              <div>
+                 <img src={react} alt="" />
+              </div>
+              <div>
+                 <img src={node} alt="" />
+              </div>
+              <div>
+                 <img src={express} alt="" />
+              </div>
+              <div>
+                 <img src={mongodb} alt="" />
+              </div>
+          </div>
           <p>
             I made this <purple>MERN stack</purple> Task Manager App using <red>MongoDB</red> as the database, <red>Node/ExpressJS</red> for the backend,
 
@@ -25,11 +56,8 @@ export default function MernToDoApp() {
 
             The website is fully responsive 
             
-            but since the server runs on a free server, it has little ram, meaning too many CRUD operations will cause the server to crash.
+            but since the server runs on a free server, it has little ram, meaning too many CRUD operations <red>will cause the server to crash</red>.
 
-            It also means the server takes about 1-2 minutes to respond back after the frontend is opened,then can it be refreshed.
-
-            This doesnt have to do anything with the code itself, just the free hosting service I ues to showcase the work. 
 
 
           </p>

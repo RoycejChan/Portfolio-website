@@ -19,7 +19,7 @@
   position: relative;
   top: 10px; /* Adjust the distance from the text */
 }
-.technologies, .technologies-container {
+nologies, .technologies-container {
     margin-left: 1rem;
 }
 
@@ -29,17 +29,21 @@
 
 .techList {
     display: flex;
-    flex-direction: column;
-    gap:2rem;
-    flex:1;
+    flex-wrap:wrap;
+    gap:3rem;
+    justify-content:center;
+    align-content:center;
 } 
 
 .techList li {
-    text-align: start;
+    max-width: 100px; 
+    overflow: hidden; 
 }
 
-.techList li::before {
-    content: "✅";
+.techList li img {
+    width: 100%; /* Make the image take 100% of the container width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
 }
 
 

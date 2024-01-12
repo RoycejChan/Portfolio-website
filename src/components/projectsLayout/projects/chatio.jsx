@@ -1,5 +1,22 @@
 import React from "react";
 import chatio from "../../../assets/projectScreenshots/chatio.png"
+import lifeInvaderSS from "../../../assets/projectScreenshots/lifeInvader.png"
+import tailwindCSS from "../../../assets/CodeLangLogos/tailwind.png"
+import materialUI from "../../../assets/CodeLangLogos/materialUI.png"
+import chakraUI from "../../../assets/CodeLangLogos/chakraUI.png"
+import html from "../../../assets/CodeLangLogos/html.png"
+import typescript from "../../../assets/CodeLangLogos/typescript.png"
+import react from "../../../assets/CodeLangLogos/reactlogo.png"
+import python from "../../../assets/CodeLangLogos/pythonlogo.png"
+import node from "../../../assets/CodeLangLogos/nodejs.png"
+import mysql from "../../../assets/CodeLangLogos/mysql.png"
+import mongodb from "../../../assets/CodeLangLogos/mongodb.png"
+import js from "../../../assets/CodeLangLogos/js.png"
+import firebase from "../../../assets/CodeLangLogos/firebase.png"
+import express from "../../../assets/CodeLangLogos/express.png"
+import django from "../../../assets/CodeLangLogos/django.png"
+import css from "../../../assets/CodeLangLogos/css.png"
+import socketIO from "../../../assets/CodeLangLogos/socketIO.png"
 
 
 
@@ -16,6 +33,23 @@ export default function Chatio() {
       </div>
       <div className="project-details">
           <h1>Chat IO Chat App</h1>
+          <div className="projectLanguages">
+              <div>
+                 <img src={html} alt="" />
+              </div>
+              <div>
+                 <img src={css} alt="" />
+              </div>
+              <div>
+                 <img src={js} alt="" />
+              </div>
+              <div>
+                 <img src={react} alt="" />
+              </div>
+              <div>
+                 <img src={socketIO} alt="" />
+              </div>
+              </div>
           <p>
 
                 Chat App I Coded with <purple>SocketIO</purple> and React. 

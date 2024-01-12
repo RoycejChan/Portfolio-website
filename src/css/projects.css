@@ -45,9 +45,27 @@
     left: 43px;
     z-index: 2; /* Lower z-index for the header box */
     opacity: .9;
-
-
 }
+
+.projectLanguages {
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    align-items:center;
+    justify-content: center;
+    width:90%;
+}
+
+.projectLanguages div {
+    width: 50px; 
+    overflow: hidden; 
+}
+.projectLanguages img{
+    width: 100%; /* Make the image take 100% of the container width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; 
+}
+
 .project-details {
     display: flex;
     flex-direction: column;

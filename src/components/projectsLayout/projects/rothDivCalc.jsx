@@ -1,6 +1,21 @@
 import React from "react";
 import rothDivCalcSS from "../../../assets/projectScreenshots/rothDivCalc.png"
-
+import lifeInvaderSS from "../../../assets/projectScreenshots/lifeInvader.png"
+import tailwindCSS from "../../../assets/CodeLangLogos/tailwind.png"
+import materialUI from "../../../assets/CodeLangLogos/materialUI.png"
+import chakraUI from "../../../assets/CodeLangLogos/chakraUI.png"
+import html from "../../../assets/CodeLangLogos/html.png"
+import typescript from "../../../assets/CodeLangLogos/typescript.png"
+import react from "../../../assets/CodeLangLogos/reactlogo.png"
+import python from "../../../assets/CodeLangLogos/pythonlogo.png"
+import node from "../../../assets/CodeLangLogos/nodejs.png"
+import mysql from "../../../assets/CodeLangLogos/mysql.png"
+import mongodb from "../../../assets/CodeLangLogos/mongodb.png"
+import js from "../../../assets/CodeLangLogos/js.png"
+import firebase from "../../../assets/CodeLangLogos/firebase.png"
+import express from "../../../assets/CodeLangLogos/express.png"
+import django from "../../../assets/CodeLangLogos/django.png"
+import css from "../../../assets/CodeLangLogos/css.png"
 
 
 export default function RothDivCalc() {
@@ -17,6 +32,35 @@ export default function RothDivCalc() {
       </div>
       <div className="project-details">
           <h1>RothDivCalc</h1>
+          <div className="projectLanguages">
+              <div>
+                 <img src={html} alt="" />
+              </div>
+              <div>
+                 <img src={css} alt="" />
+              </div>
+              <div>
+                 <img src={js} alt="" />
+              </div>
+              <div>
+                 <img src={tailwindCSS} alt="" />
+              </div>
+              <div>
+                 <img src={materialUI} alt="" />
+              </div>
+              <div>
+                 <img src={react} alt="" />
+              </div>
+              <div>
+                 <img src={python} alt="" />
+              </div>
+              <div>
+                 <img src={django} alt="" />
+              </div>
+              <div>
+                 <img src={typescript} alt="" />
+              </div>
+          </div>
 <p>
     I created this <purple>Full Stack</purple> Roth IRA and Dividend portfolio website using <red>Python/Django</red> for the backend, <red>ReactJS + Typescript</red> for the frontend, and <red>TailwindCSS + some MaterialUI</red> for styling.
 
