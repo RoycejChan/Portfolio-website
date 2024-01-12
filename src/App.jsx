@@ -12,11 +12,12 @@ import './css/contact.css'
 import './css/about.css'
 import './css/Navigation/footer.css'
 import './css/projects.css'
-
+import { useEffect } from "react"
 
 
 
 export default function App() {
+    useEffect(() => {
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -30,6 +31,7 @@ export default function App() {
 
     const hiddenElements = document.querySelectorAll(".hidden");
     hiddenElements.forEach((el)=> observer.observe(el));
+
 
 
 
@@ -62,6 +64,7 @@ export default function App() {
     }) 
     const hiddentech = document.querySelectorAll(".hidetech");
     hiddentech.forEach((el)=> observer.observe(el));
+}, []); 
     return (
         <div>
             <Nav />
