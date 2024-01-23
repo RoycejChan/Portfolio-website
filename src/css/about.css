@@ -12,6 +12,7 @@
     margin-top: 15rem;
     z-index: 999;
 }
+
 .header-box {
   background-color: var(--main-Pink); /* Pink color */
   height: 10px; /* Adjust the height as needed */

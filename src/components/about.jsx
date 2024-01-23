@@ -17,6 +17,7 @@ import express from "../assets/CodeLangLogos/express.png"
 import django from "../assets/CodeLangLogos/django.png"
 import css from "../assets/CodeLangLogos/css.png"
 import aws from "../assets/CodeLangLogos/aws.png"
+import { Tooltip } from '@chakra-ui/react'
 
 export default function About() {
     return (
@@ -29,32 +30,23 @@ export default function About() {
                         </h1>
                         <div className="header-box-about imghidden"></div>
                         <p className="about-message">
-                        Hello! I'm <purple>Royce Escalona</purple>, a passionate tech enthusiast 
-
-                        based in California with a strong desire to learn 
-
-                        and grow in this ever-changing industry. I specialize in full-stack developement, ensuring visually stunniny, engaging, fast load time, and responsive websites and applications.
-
-                        My portfolio is a reflection of my dedication to honing my 
-
-                        skills and taking on new xciting challenges. 🧠
+                        Hello! I'm <purple>Royce Escalona</purple>,a passionate tech enthusiast based in California with a strong desire to 
+                        learn and grow in this ever-changing industry. I specialize in full-stack development, ensuring visually stunning, engaging, fast load time,
+                         and responsive websites and applications. My portfolio is a reflection of my dedication to honing my skills and taking on new exciting challenges. 🧠
 <br />
-                        I'm eager to collaborate, create, and make a positive impact 
-
-                        in the Web Development and Tech community.
+                        I'm eager to collaborate, create, and make a positive impact in the Web Development and Tech community.
                         <br /> 
                         <br />
-                        In my free time, I like to workout, rock climb, do some gardening, and occasionaly car camp and travel to go 
-
-                        as camping, fishing, crabbing, and hiking.
+                        In my free time, I like to work out, rock climb, do some gardening,
+                         and occasionally car camp and travel to go camping, fishing, crabbing, and hiking.
                         
                         <br /> 
                         <br />
 
-                        I am always open to new learning and developement opportunities, professional and personal, continuous learning has always been a passion of mine. So
-                        Feel free to explore 
-
-                        my portfolio and <br /> <red>Contact me</red> if you would like to collaborate and work with me 😎.
+                        I am always open to new learning and development opportunities, professional and personal,
+                         continuous learning has always been a passion of mine. So Feel free to explore my portfolio 
+                         and <br /> <red>                                <Tooltip label="Rouyce23@gmail.com" >
+Contact me</Tooltip></red> if you would like to collaborate and work with me 😎
 
 
                         </p>

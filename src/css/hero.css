@@ -251,11 +251,26 @@ border:5px solid black;
 }
     }
 
-    @media (max-width: 475px) {
+    @media (max-width: 400px) {
     
         .intro-message {
             width: 30ch;
+            font-size: 1rem;
             color: var(--text-Gray);
         }
-
+        .heroSocialList {
+                gap: 1rem;
+            }
+        .heroSocialList li {
+    width: 50px;
+}
+.pfp-container {
+    width: 15rem; 
+    height: 15rem; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+.intro {
+    gap:1rem;
+}
     }
