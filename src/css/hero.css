@@ -1,7 +1,7 @@
 
 .pfp-container {
-    width: 25rem; 
-    height: 25rem; 
+    width: 20rem; 
+    height: 20rem; 
     border-radius: 50%; 
     overflow: hidden; 
 }
@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap:3rem;
+    gap:2.3rem;
     background-image: url('../assets/headerBackground.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -37,6 +37,8 @@
     justify-content: center;
     gap:1rem;
     background-color: transparent;
+    overflow-y: hidden;
+
 
 }
 
@@ -77,6 +79,46 @@ border:5px solid black;
     margin-top: -1.1rem;
     font-size: 1em;
 }
+
+
+
+.heroSocial {
+    overflow-y: hidden;
+    background-color: transparent;
+
+}
+
+.heroSocialList {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding:.5rem;
+}
+.heroSocialList li {
+    max-width: 100px;
+    width: 70px;
+    overflow-y: hidden;
+    background-color: none;
+    transition: transform 0.1s; /* Add a transition for a smooth effect */
+}
+.heroSocialList li:hover {
+    transform: translateY(-5%); /* Use "transform" instead of "translateY" and fix the syntax */
+     cursor:pointer;
+}
+.hero-social {
+    background-color: white;
+    border-radius: 25%;
+    padding: .5rem;
+    
+}
+.hero-social img {
+    background-color: transparent;
+    width: 100%;
+    overflow-y: hidden;
+}
+
 /* @keyframes glow-slide {
     0% {
         transform: translateY(0);
@@ -177,6 +219,7 @@ border:5px solid black;
     /* xs */
     @media (max-width: 475px) {
         .pfp-container {
+            margin-top:1rem;
             width:15rem;
             height: 15rem;
         }
@@ -192,11 +235,27 @@ border:5px solid black;
         }
         
         .intro-message {
-            width: 20ch;
+            width: 25ch;
             color: var(--text-Gray);
         }
 
         .intro-btn {
             font-size: var(--text-xl-font-size);
         }
+        .heroSocialList {
+                gap: 1.5rem;
+                padding:.5rem;
+            }
+            .heroSocialList li {
+    width: 65px;
+}
+    }
+
+    @media (max-width: 475px) {
+    
+        .intro-message {
+            width: 30ch;
+            color: var(--text-Gray);
+        }
+
     }

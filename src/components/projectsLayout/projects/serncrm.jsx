@@ -27,6 +27,7 @@ export default function SernCrmApp() {
 
   
   <div className="project serncrm">
+
       <div className="task-manager-img project-img imghidden">
           <a href="https://contractorcrm.onrender.com/"  target="blank_"><img src={contractorSS} alt="" /></a>
       </div>

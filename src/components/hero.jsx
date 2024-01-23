@@ -1,7 +1,10 @@
 import React from "react";
 import Pfp from "../assets/Pfp.png"
-import Handemoji from "../assets/handemoji.png"
-
+import github  from "../assets/SocialMediaLogos/githublogo.png"
+import instagram  from "../assets/SocialMediaLogos/instagram.png"
+import linkedhero  from "../assets/SocialMediaLogos/linkedhero.png"
+import email  from "../assets/SocialMediaLogos/emaillogo.png"
+import { Tooltip } from '@chakra-ui/react'
 
 export default function Hero() {
 
@@ -26,8 +29,35 @@ export default function Hero() {
             <h2 className="intro-header animate__animated animate__backInDown"  >
                 Hello, Im Royce <span className="hero-emoji">👋</span>
             </h2>
+            <div className="heroSocial">
+                            <ul className="heroSocialList">
+                                <li className="hero-social hidden stackLogo">
+                                <a href="https://github.com/RoycejChan" target="_blank">
+                                    <img src={github} alt="" />
+                                    </a>
+                                </li>
+                                <li className="hero-social hidden stackLogo">
+                                <a href="https://www.instagram.com/roycejse/" target="_blank">
+                                    <img src={instagram} alt="" />
+                                    </a>
+                                </li>
+                                <li className="hero-social hidden stackLogo">
+                                <a href="https://www.linkedin.com/in/royceescalona/" target="_blank">
+                                    <img src={linkedhero} alt="" />
+                                    </a>
+                                </li>
+                                <li className="hero-social hidden stackLogo">
+                                <Tooltip label="Rouyce23@gmail.com" aria-label='A tooltip'>
+                                    <img src={email} alt="" />
+                                    </Tooltip>
+                                </li>
+                            </ul>
+            </div>
             <h1 className="intro-message animate__animated animate__backInUp" >
-            As a versatile web developer, my portfolio reflects a commitment to continuous growth and passion for tackling exciting challenges.            </h1>
+
+A California based Web developer, specializing in UI/UX design, responsive web design, and fast load time. 
+I am passionate about being part of growing a business and enchancing user experiences.
+        </h1>
             <button className="intro-btn  animate__animated animate__backInUp animate__delay-1s" onClick={()=> scrollToSection('projects-section')}>View my Work 👇</button>
         </section>
     )

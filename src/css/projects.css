@@ -110,10 +110,6 @@
     scale:0.95;
 }
 
-/* .project-img img:hover {
-    scale: 1.05;
-    animation: glow 1s infinite alternate; 
-} */
 
 .task-manager-img {
     overflow-y: hidden;
@@ -126,6 +122,9 @@
     object-fit: cover; 
     transition: scale .5s ease;
 }
+
+
+
         /* BUTTONS START*/
 .intro-btn:hover {
 transform: scale(1.1);
@@ -187,27 +186,29 @@ transform: scale(1.1);
     background-color: transparent;
     color:white;
 }
-.technologies-container {
-}
 .techList {
     padding:2rem;
     overflow:hidden;
-}
+} 
 .showtech { 
     opacity:1;
     transform:translateY(0%);
     filter:blur(0);
-    overflowY:hidden;
+    overflow-y:hidden;
 }
 .hidetech {
     opacity:0;
     filter:blur(5px);
     transform:translateY(50%);
     transition:all .75s;
-    overflowY:clip;
+    overflow-y:clip;
 }
-
-
+ 
+@media(prefers-reduced-motion) {
+    .hidetech {
+        transition: none;
+    }
+}
 
 .showimg {
     opacity:1;
@@ -375,7 +376,7 @@ transform: scale(1.1);
     max-width: 475px;
     }
     .project-header p {
-        width: 80%;
+    width: 80%;
     }
     }
     
@@ -387,6 +388,10 @@ transform: scale(1.1);
     .project-btns {
         flex-direction: column;
     }
+    .project-img {
+    width: 200%;
+}
+
     }
     
     /* xs around iphone 6 gen */

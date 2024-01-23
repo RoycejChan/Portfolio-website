@@ -74,7 +74,7 @@
     }
     .mediaList {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Grid with 3 columns */
+        grid-template-columns: repeat(2, 1fr); /* Grid with 3 columns */
         grid-gap: 20px; 
       }
     }

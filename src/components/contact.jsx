@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from '@chakra-ui/react'
 
 
 export default function Contact() {
@@ -15,7 +16,9 @@ export default function Contact() {
                     my inbox is always open so feel free to reach out and I will get back to you as soon as possible.
                     Alternatively connect with me elsewhere on the web.
                 </p>
+                <Tooltip label="You can reach me at one of my social media links, or email my at Rouyce23@gmail.com" aria-label='A tooltip'>
                 <button className="contact-btn">Reach Out</button>
+                </Tooltip>
             </div>
         </div>
     )

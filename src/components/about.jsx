@@ -33,29 +33,28 @@ export default function About() {
 
                         based in California with a strong desire to learn 
 
-                        and grow in this ever-changing industry. While I'm at the 
-
-                        beginning of my journey, I'm excited about the endless 
-
-                        possibilities that this field offers.
+                        and grow in this ever-changing industry. I specialize in full-stack developement, ensuring visually stunniny, engaging, fast load time, and responsive websites and applications.
 
                         My portfolio is a reflection of my dedication to honing my 
 
-                        skills and taking on exciting challenges. 
-
+                        skills and taking on new xciting challenges. 🧠
+<br />
                         I'm eager to collaborate, create, and make a positive impact 
 
-                        in the web development and IT community.
+                        in the Web Development and Tech community.
                         <br /> 
                         <br />
-                        In my free time, I like to workout, play videogames, do some gardening, and do outdoor physical activities such 
+                        In my free time, I like to workout, rock climb, do some gardening, and occasionaly car camp and travel to go 
 
-                        as camping, fishing, and hiking.
+                        as camping, fishing, crabbing, and hiking.
+                        
                         <br /> 
                         <br />
+
+                        I am always open to new learning and developement opportunities, professional and personal, continuous learning has always been a passion of mine. So
                         Feel free to explore 
 
-                        my portfolio and <red>join me</red> on this exciting journey.
+                        my portfolio and <br /> <red>Contact me</red> if you would like to collaborate and work with me 😎.
 
 
                         </p>
