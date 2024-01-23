@@ -52,7 +52,7 @@ export default function Hero() {
                                     <img src={resume} alt="" />
                                     </a>
                                 </li>
-                                <li className="hero-social hidden stackLogo show">
+                                <li className="hero-social hidden stackLogo show" id="email">
                                 <Tooltip label="Rouyce23@gmail.com" aria-label='A tooltip'>
                                     <img src={email} alt="" />
                                     </Tooltip>

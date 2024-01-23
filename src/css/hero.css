@@ -251,6 +251,10 @@ border:5px solid black;
             .heroSocialList li {
     width: 65px;
 }
+#email {
+    display:none; 
+    /* email toolkit popup doesnt show on mobile */
+}
     }
 
     @media (max-width: 400px) {
@@ -276,4 +280,6 @@ border:5px solid black;
 .intro {
     gap:1rem;
 }
+
+
     }
