@@ -4,6 +4,7 @@ import github  from "../assets/SocialMediaLogos/githublogo.png"
 import instagram  from "../assets/SocialMediaLogos/instagram.png"
 import linkedhero  from "../assets/SocialMediaLogos/linkedhero.png"
 import email  from "../assets/SocialMediaLogos/emaillogo.png"
+import resume  from "../assets/SocialMediaLogos/resume.png"
 import { Tooltip } from '@chakra-ui/react'
 
 export default function Hero() {
@@ -47,6 +48,11 @@ export default function Hero() {
                                     </a>
                                 </li>
                                 <li className="hero-social hidden stackLogo">
+                                <a href="https://docs.google.com/document/d/e/2PACX-1vSmqDqOXTlHpSfBgQjeG0Ox-j7puDJ3LLLxzcIT1M95-UUMPAOGekOudpWqdYQ7UIoqsLUYESW6mkwS/pub" target="_blank">
+                                    <img src={resume} alt="" />
+                                    </a>
+                                </li>
+                                <li className="hero-social hidden stackLogo show">
                                 <Tooltip label="Rouyce23@gmail.com" aria-label='A tooltip'>
                                     <img src={email} alt="" />
                                     </Tooltip>

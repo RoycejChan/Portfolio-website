@@ -68,7 +68,9 @@ export default function App() {
     return (
         <div>
             <Nav />
+            <button className="resumebtn">Resume</button>
             <Hero />
+
             <Projects />
             <About />
             <Contact />

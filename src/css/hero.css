@@ -101,10 +101,11 @@ border:5px solid black;
     width: 70px;
     overflow-y: hidden;
     background-color: none;
-    transition: transform 0.1s; /* Add a transition for a smooth effect */
+    transition: transform 0.1s;
+    border:1px solid red;
 }
 .heroSocialList li:hover {
-    transform: translateY(-5%); /* Use "transform" instead of "translateY" and fix the syntax */
+    transform: translateY(-5%); 
      cursor:pointer;
 }
 .hero-social {
