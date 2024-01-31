@@ -68,10 +68,8 @@ export default function App() {
     return (
         <div>
             <Nav />
-            <button className="resumebtn">Resume</button>
             <Hero />
-
-            <Projects />
+            <Projects />    
             <About />
             <Contact />
             <Footer />
