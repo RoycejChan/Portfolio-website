@@ -38,7 +38,7 @@ export default function Hero() {
                                     </a>
                                 </li>
                                 <li className="hero-social hidden stackLogo">
-                                <a href="https://www.instagram.com/roycejse/" target="_blank">
+                                <a href="https://www.instagram.com/rrrroyceeee/" target="_blank">
                                     <img src={instagram} alt="" />
                                     </a>
                                 </li>
